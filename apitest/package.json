@@ -1,6 +1,14 @@
 {
   "dependencies": {
+    "chai": "^4.3.6",
     "express": "^4.17.3",
+    "supertest": "^6.2.2",
     "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "test": "mocha *.test.js"
   }
 }
